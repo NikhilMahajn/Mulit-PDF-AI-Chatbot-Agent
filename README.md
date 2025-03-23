@@ -1,4 +1,4 @@
-# Multi-PDF Retrieval-Augmented Generation (RAG) System
+# 🤖Multi-PDF Retrieval-Augmented Generation (RAG) System
 
 This project implements a multi-PDF retrieval-augmented generation (RAG) chatbot system that allows users to upload multiple PDF files, process them into embeddings, and ask questions based on the content of the uploaded PDFs. The system leverages FAISS, LangChain, and Streamlit to create a seamless user experience for document-based question answering.
 
@@ -27,10 +27,13 @@ The application follows these steps to provide responses to your questions:
 5. **Response Generation** : The selected chunks are passed to the language model, which generates a response based on the relevant content of the PDFs.
 
 ![Demo 2: Chatbot Output](img/image.png)
+---
 ![Demo 3: Chatbot Output](img/2.png)
+---
 ![Demo 4: Chatbot Output](img/3.png)
+---
 
-## Features
+## 🎯Key Features
 
 - **Multiple PDF File Upload**: Upload and process multiple PDF documents simultaneously.
 - **Document Chunking**: Splits PDF content into manageable chunks to enhance retrieval accuracy.
@@ -56,7 +59,7 @@ This API can be integrated into Python-based AI applications (including framewor
 
 
 
-## Installation
+## ▶️Installation
 
 1. Clone the repository:
    ```bash
@@ -83,7 +86,7 @@ This API can be integrated into Python-based AI applications (including framewor
 
 ---
 
-## Usage
+## 💡Usage
 
 1. Run the Streamlit app:
    ```bash
@@ -109,14 +112,6 @@ This API can be integrated into Python-based AI applications (including framewor
 
 ---
 
-## Key Libraries Used
-
-- **LangChain**: For text splitting, document chains, and LLM integration.
-- **FAISS**: Fast Approximate Nearest Neighbor Search for embedding storage and retrieval.
-- **Streamlit**: For building the interactive UI.
-- **PyPDFLoader**: Efficient PDF document loading.
-
----
 
 ## Custom Chat Prompt
 
@@ -157,7 +152,7 @@ Feel free to submit issues, fork the repository, and make pull requests. Contrib
 
 ---
 
-## License
+## ©️ License 🪪
 
 This project is licensed under the MIT License. See the `LICENSE` file for more information.
 
@@ -167,3 +162,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 
 - Inspired by LangChain's document-based RAG examples.
 - Thanks to the Streamlit and FAISS communities for their excellent libraries.
+
+#### **If you like this LLM Project do drop ⭐ to this repo**
+#### Follow me on [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nikhiljmahajan/) &nbsp; [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NikhilMahajn/)
+

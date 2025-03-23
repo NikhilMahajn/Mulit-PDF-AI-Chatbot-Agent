@@ -27,10 +27,11 @@ The application follows these steps to provide responses to your questions:
 5. **Response Generation** : The selected chunks are passed to the language model, which generates a response based on the relevant content of the PDFs.
 
 ![Demo 2: Chatbot Output](img/image.png)
+
 ---
+
 ![Demo 3: Chatbot Output](img/2.png)
----
-![Demo 4: Chatbot Output](img/3.png)
+
 ---
 
 ## 🎯Key Features
@@ -63,8 +64,8 @@ This API can be integrated into Python-based AI applications (including framewor
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/NikhilMahajn/Mulit-PDF-AI-Chatbot-Agent.git
+   cd /Mulit-PDF-AI-Chatbot-Agent
    ```
 
 2. Create and activate a virtual environment:
